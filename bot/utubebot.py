@@ -13,7 +13,7 @@ class UtubeBot(Client):
             plugins = dict(
                 root="bot.plugins"
             ), 
-            workers = 6
+            workers = 23
         )
         self.DOWNLOAD_WORKERS = 32
         self.counter = 0
